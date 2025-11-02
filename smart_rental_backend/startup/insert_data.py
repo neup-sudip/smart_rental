@@ -72,7 +72,7 @@ def insert_data():
     ]
 
     for prop in default_properties:
-        exists = Property.query.filter_by(owner_id=default_user.id).first()
+        exists = Property.query.filter_by(title=prop["title"]).first()
         if not exists:
             new_prop = Property(
                 title=prop["title"],
