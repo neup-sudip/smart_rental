@@ -149,7 +149,7 @@ git clone https://github.com/neup-sudip/smart_rental.git
 cd smart_rental
 ```
 
-#### 3. Setup Backend (Server)
+#### 3. Setup Backend (Server) -  open a new PowerShell window
 ```powershell
 cd smart_rental_backend
 python -m venv venv
