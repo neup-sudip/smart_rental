@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(229 231 235);
+}
+
+.top-grid-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  width: 100%;
+}
+
+.unavailable {
+  background-color: rgb(224, 171, 171);
+}
+
+.bg-category {
+  background-color: #b7d7f5;
+}
