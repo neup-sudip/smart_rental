@@ -39,6 +39,7 @@ Database: **PostgreSQL**
 ### Property Module
 - CRUD operations for properties
 - Only allow author to modify the property data
+- Property View count with unique ip address for popular property
 - Sample Dashboard Response:
 ```json
 {
